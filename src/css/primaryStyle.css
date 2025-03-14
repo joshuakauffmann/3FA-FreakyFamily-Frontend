@@ -1,0 +1,57 @@
+/* Color Palette
+
+  - #01377D
+  - #009DD1
+  - #97E7F5
+  - #7ED348
+  - #26B170
+  - #FFFFFF
+  - #292929
+  - #000000
+
+*/
+
+
+body {
+  background-color: #97e7f5;
+}
+
+
+/* Font */
+* {
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Font */
+
+
+/* Top Bars */
+.primaryTopBar {
+  height: 10%;
+
+  background-color: #26b170;
+
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-color: #000000;
+
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.75);
+}
+
+.secondaryTopBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 145px;
+  margin: 0;
+  background: linear-gradient(to bottom, #009dd1, #97e7f5);
+  font-weight: bold;
+}
+
+.tertiaryTopBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Top Bars */
