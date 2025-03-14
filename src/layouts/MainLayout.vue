@@ -17,7 +17,9 @@
           color="black"
           @click="toggleLeftDrawer"
         />
-        <q-toolbar-title id="q-Title"> Joshua's Playground </q-toolbar-title>
+        <q-toolbar-title id="q-Title">
+          Was auch immer das hier sein soll!
+        </q-toolbar-title>
       </q-toolbar>
     </q-header>
     <!-- Standart TopBar -->
@@ -93,16 +95,6 @@ const linksList = [
     title: "Home",
     icon: "home",
     link: "/home",
-  },
-  {
-    title: "To Do",
-    icon: "list",
-    link: "/uptodo",
-  },
-  {
-    title: "Learned",
-    icon: "book",
-    link: "/learned",
   },
 ];
 </script>
