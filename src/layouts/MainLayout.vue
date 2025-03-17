@@ -18,7 +18,7 @@
           @click="toggleLeftDrawer"
         />
         <q-toolbar-title id="q-Title">
-          Was auch immer das hier sein soll!
+          Absolutly Freaky Service!
         </q-toolbar-title>
       </q-toolbar>
     </q-header>
@@ -92,9 +92,14 @@ const isActive = (title) => {
 
 const linksList = [
   {
-    title: "Home",
-    icon: "home",
-    link: "/home",
+    title: "Import",
+    icon: "download",
+    link: "/import",
+  },
+  {
+    title: "Export",
+    icon: "import",
+    link: "/export",
   },
 ];
 </script>

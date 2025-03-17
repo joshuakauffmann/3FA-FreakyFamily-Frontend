@@ -1,6 +1,6 @@
 <!-- //HTML\\ -->
 <template>
-  <h2 class="secondaryTopBar">Home</h2>
+  <h2 class="secondaryTopBar">Import</h2>
   <div id="Introduction"></div>
 </template>
 <!-- //HTML\\ -->
